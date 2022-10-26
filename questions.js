@@ -2,8 +2,8 @@
 // Existe algún error en la forma en que se han escrito/declarado estas funciones??
 
 /* -- Primera función -- */
-// const x = func1();
-// const func1 = () => 1;
+const x = func1();
+const func1 = () => 1;
 
 /* -- Segunda función -- */
 const y = func2();
@@ -65,22 +65,20 @@ const [first, second, third, fourth, fifth, sixth, seventh] = [
     seventh:
 */
 
-console.log({ first, second, third, fourth, fifth, sixth, seventh });
-
 // -- PREGUNTA 4 -- //
 
 // Componente
-// const Character = ({ name, movies }) => {
-//   // ...
-//   return (
-//     <h1>{name}</h1>
-//     // ...
-//   );
-// };
+const Character = ({ name, movies }) => {
+  // ...
+  return (
+    <h1>{name}</h1>
+    // ...
+  );
+};
 
-// const props1 = {
-//   name: "Donald",
-// };
+const props1 = {
+  name: "Donald",
+};
 
 // Retorno estos componentes
 // 1º <Character name={'Mickey'} {...props1} />
